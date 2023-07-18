@@ -333,5 +333,6 @@ window.addEventListener("resize", checkWindowSize);
 window.addEventListener('load', function() {
   var spinner = document.querySelector('.custom-loader');
   spinner.style.display = 'none'; 
+  document.body.style.display = 'flex'; 
   
 });
