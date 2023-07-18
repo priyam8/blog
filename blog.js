@@ -330,9 +330,12 @@ checkWindowSize();
 window.addEventListener("resize", checkWindowSize);
 
 //loader
-window.addEventListener('load', function() {
-  var spinner = document.querySelector('.custom-loader');
-  spinner.style.display = 'none'; 
-  document.body.style.display = 'flex'; 
-  
-});
+document.onreadystatechange = function() {
+  if (document.readyState !== "complete") {
+      document.querySelector("body").style.visibility = "hidden";
+      document.querySelector(".custom-loader").style.visibility = "visible";
+  } else {
+      document.querySelector(".custom-loader").style.display = "none";
+      document.querySelector("body").style.visibility = "visible";
+  }
+};
