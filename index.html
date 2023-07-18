@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!----------------info--------------------->
+  <title>Scrollfeed: Scroll and Explore</title>
+  <meta name="description" content="Platform where your search for the best ends.">
+  <meta name="robots" content="index,follow">
+<!----------------------------------------------------->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!---------favicon---------------->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<!--------------og tag------------->
+<meta property="og:title" content="Scrollfeed: Scroll and Explore" />
+<meta property="og:description" content="Platform where your search for the best ends." />
+<meta property="og:image" content=" " />
+<meta property="og:url" content=" " />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Scrollfeed" />
+<!------------------twitter card-------------------------------------------->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@scrollfeed">
+<meta name="twitter:title" content="Scrollfeed: Scroll and Explore">
+<meta name="twitter:description" content="Platform where your search for the best ends.">
+<meta name="twitter:image" content=" ">
+<meta name="twitter:url" content=" ">
+<!---------------------stylesheets files------->
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link rel="stylesheet" type="text/css" href="mediaControl.css">
+    
+ <!--------------------- Schema Markup --------------
+ <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Scrollfeed",
+    "url": " "
+  }
+  </script>
+-------------------------------------------------------->
+
+</head>
+  <body>
+
+
+<header id="topHead">
+ <div class="logo">
+  <img src="../img/logo.png">
+ </div>
+ <h1> Scrollfeed</h1>
+
+ <div class="search-container">
+    <input type="search" id="searchText" placeholder="Search and discover">
+    <button id="searchBtn" style="padding: 0 5px;background-color:transparent;border:none;cursor:pointer;">
+        <i class="bi bi-search" style="font-size:25px;"></i>
+    </button>
+ </div>
+</header>
+
+<div id="left-container"> 
+   
+    <div id="intro-container">
+            <div id="vid">
+              <video  style="height: 100%;width:100%;object-fit:cover;opacity:0.4" muted autoplay loop>
+                  <source src="../img/vid.mp4">
+              </video>
+              <p> 
+                   Select a Place and Discover it<br><br>
+                 <strong style="font-family: monospace;">“One day you’ll leave this world behind
+                  So live a life you will remember” <br>-Avicii</strong>  
+                   
+              </p>
+            </div>
+
+            <div id="choosePlace">
+              Click to Select
+            </div>
+            
+            <div class="placeslist">
+              <ul id="pList">
+                <li>Manali</li>
+                <li>Shimla</li>
+                <li>Lucknow</li>
+                <li>Delhi</li>
+              </ul>
+            </div>
+
+            <div id="listThingsToDo">
+               
+             <ul id="placeRslt">
+              
+             </ul>
+            </div>
+    </div>
+
+
+    <div id="gallery-container">
+      <img src=" " alt=" " style="height:100%;width:100%;object-fit:contain">
+       <div id="caption">
+          <a href="#" style="color: rgb(0, 0, 0);">
+            <p></p>
+          </a> 
+       </div>
+       <button id="prevBtn">
+        <i class="bi bi-arrow-left-square-fill" style="font-size:30px;"></i>
+       </button>
+       <button id="nxtBtn">
+        <i class="bi bi-arrow-right-square-fill" style="font-size:30px;"></i>
+
+       </button>
+    </div>
+    
+</div>
+
+<div id="post-container">
+
+  <article class="post-template">
+     
+    <div class="mediaPlusTitle">
+      <!-----------------Post media-------------------->            
+      <img class="multimedia-data" src="../img/f.jpeg" alt="Manali India">
+  
+      <!---------------------Place Name------------------------->
+      <header class="place-name "><h1>Thanks To Traffic</h1> </header>
+       
+             <!---------------------post like button------------------------->
+  
+      <span class="like-btn">&#128159;</span>
+  
+    </div>
+  
+       <!------seeMore Text popup box-------------> 
+    <div class="seeMoreTextBox option-texts ">
+      <p> </p>
+    </div>
+  <!------ review placeDetails Share  popup Box------------> 
+
+   <!----------------review Display box---------------->
+
+   <div class="postReviewBox popupBoxs ">
+    <p>Heavenly view, adventurous activites, affordable Price, good people and 
+      friendly guide is just we need for good trip. </p>
+  </div>
+
+   <!----------------place Display box---------------->
+
+  <div class="postLocationBox popupBoxs ">
+    <p> xyz 123 Manali India</p>
+  </div>
+
+   <!----------------share Link Display box---------------->
+
+  <div class="postShareBox popupBoxs">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-link"></i>
+  </div>
+     
+  
+  
+  
+     <!------Reaction popup------------->
+      <div class="reaction-data">
+        <ul style="list-style-position: inside;margin-left:7px;font-size:0.9em; padding-top:5px;">
+          <li>Interested<span> &#128420; 60% </span></li>
+          <li>Recommened<span><span style="font-size:1.5em;">	&#9733; </span>40%  </span></li>
+  
+        </ul>
+      </div>
+    
+     <!-----------------Post related data------------------->
+      <div class="post-data-bar">
+       
+        <span class="reaction-btn" style="float: left;margin-left:10px; font-size:1em;">Reaction</span>
+        
+        <img  class="reviewBtn"  src="../icons/reviews.png" alt="recommend-data">
+        <img  class="locationBtn" src="../icons/location2.png" alt="recommend-data">
+        <img  class="shareBtn" src="../icons/send.png" alt="recommend-data">
+  
+        <time  class="option-texts" style="font-size:0.7em;;float:right;margin-right:10px;color:white">1 hour ago</time>
+  
+  
+      </div>
+      
+      <!-----------Text area ------------->
+      <div class="text-area" style="display: flex; align-items:center;">
+  
+        <div class="author-img" style="width:50px; height:50px;margin-left:10px; ">
+          <img  src="..\icons\profilepic.jpeg" alt="post-author">
+        </div>
+     
+        <span class="text option-texts" >
+          <p class="txt">
+            If I had the power to stop time, I would definitely use it at that time.
+             Although I don't enjoy waiting in traffic, at that moment I found it oddly enjoyable.
+             Manali is an enchanting destination where you can escape the worries of everyday life.
+              Each place in Manali has its own unique definition of beauty, leaving you awestruck at every turn.
+               From the majestic mountains to the serene valleys, there is no shortage of breathtaking sights to behold. 
+               If you're seeking a stress-free and rejuvenating experience, Manali should be at the top of your travel list. 
+              Take your time to explore the charm of Manali, and you won't be disappointed.
+            </p>
+        </span>
+        
+      
+  
+      </div>
+  
+    </article>
+
+     <!---secon post-->
+     
+     <article class="post-template">
+     
+      <div class="mediaPlusTitle">
+        <!-----------------Post media-------------------->            
+        <img class="multimedia-data" src="../img/e.jpeg" alt="Yak ride Shimla ">
+    
+        <!---------------------Place Name------------------------->
+        <header class="place-name "><h1>A ride worth every penny!</h1> </header>
+         
+               <!---------------------post like button------------------------->
+    
+        <span class="like-btn">&#128159;</span>
+    
+      </div>
+    
+         <!------seeMore Text popup box-------------> 
+      <div class="seeMoreTextBox option-texts ">
+        <p> </p>
+      </div>
+    
+      <!------ review placeDetails Share  popup Box------------> 
+
+   <!----------------review Display box---------------->
+
+   <div class="postReviewBox popupBoxs ">
+    <p>Heavenly view, adventurous activites, affordable Price, good people and 
+      friendly guide is just we need for good trip. </p>
+  </div>
+
+   <!----------------place Display box---------------->
+
+  <div class="postLocationBox popupBoxs ">
+    <p> xyz 123 Manali India</p>
+  </div>
+
+   <!----------------share Link Display box---------------->
+
+  <div class="postShareBox popupBoxs">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-link"></i>
+  </div>
+     
+  
+    
+       <!------Reaction popup------------->
+        <div class="reaction-data">
+          <ul style="list-style-position: inside;margin-left:7px;font-size:0.9em; padding-top:5px;">
+            <li>Interested<span> &#128420; 60% </span></li>
+            <li>Recommened<span><span style="font-size:1.5em;">	&#9733; </span>40%  </span></li>
+    
+          </ul>
+        </div>
+      
+       <!-----------------Post related data------------------->
+        <div class="post-data-bar">
+         
+          <span class="reaction-btn" style="float: left;margin-left:10px; font-size:1em;">Reaction</span>
+          
+          <img  class="reviewBtn"  src="../icons/reviews.png" alt="recommend-data">
+          <img  class="locationBtn" src="../icons/location2.png" alt="recommend-data">
+          <img  class="shareBtn" src="../icons/send.png" alt="recommend-data">
+    
+          <time  class="option-texts" style="font-size:0.7em;;float:right;margin-right:10px;color:white">1 hour ago</time>
+    
+    
+        </div>
+        
+        <!-----------Text area ------------->
+        <div class="text-area" style="display: flex; align-items:center;">
+    
+          <div class="author-img" style="width:50px; height:50px;margin-left:10px; ">
+            <img  src="..\icons\profilepic.jpeg" alt="post author">
+          </div>
+       
+          <span class="text option-texts" >
+            <p class="txt">
+              Surrounded by the picturesque beauty of Shimla, 
+              the yak ride took me on a journey through lush meadows and towering pine forests.
+              That yak ride in Shimla will forever hold a special place in my heart,
+               serving as a cherished memory that reminds me of the profound 
+               beauty and tranquility that nature can bestow upon us.
+              
+              </p>
+          </span>
+          
+        
+    
+        </div>
+    
+      </article>
+</div>
+
+<div id="leftContOpen" style="position: absolute; bottom:20px;left:10px;cursor:pointer" >
+  <i class="bi bi-arrow-up-right-square-fill" style="font-size: 40px;"></i>
+</div>
+
+<!-----------------JS -------------------->
+<script src="blog.js" ></script>
+
+  </body>
+</html>

@@ -1,0 +1,7 @@
+@media  screen and (max-width: 762px ){
+
+    #left-container{display: none;width: 100%;}
+    #post-container{width: 100%;}
+    #leftContOpen{display: block;}
+    .post-template{ max-width: 95%; }
+}
