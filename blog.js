@@ -86,27 +86,27 @@ if(textBox.offsetHeight < textBox.scrollHeight){
 
     const galleryImgs = [
       {
-        image: "../img/h.jpg",
+        image: "img/h.jpg",
         description: "Should I Leave?",
         alt: "Best place to spend time"
       },
       {
-        image: "../img/b.jpg",
+        image: "img/b.jpg",
         description: "I dont need woolen cloth, though I look cool",
         alt: "Friend to make in Manali"
       },
       {
-        image: "../img/c.jpeg",
+        image: "img/c.jpeg",
         description: "Comfortable Ride",
         alt: "Best ride to take in India"
       },
       {
-        image: "../img/d.jpg",
+        image: "img/d.jpg",
         description: "Take a nice picture tourist",
         alt: "Street dog "
       },
       {
-        image: "../img/g.jpg",
+        image: "img/g.jpg",
         description: "Barf Hi Barf",
         alt: "A place to see snowfall"
       }
