@@ -9,7 +9,7 @@
 
 body{
     
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     overflow: hidden;
 }
