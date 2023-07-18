@@ -251,7 +251,7 @@ const listOfThings = {
   Manali:["Paragliding", "River Rafting","Riverside Camping","Hot Air Baloon Ride","Igloo Stay"],
   Shimla:["Toy Train Ride","Ice skating","Chadwick Waterfall","Cycling","Kiala Forest"],
   Lucknow:["Bara Imambara","Lucknawi quintessential items","local dishes"],
-  DElhi:["Street Food","Dilli Haat","Pandara Road","Majnu Ka Tila"]
+  Delhi:["Street Food","Dilli Haat","Pandara Road","Majnu Ka Tila"]
 };
 
 
@@ -328,3 +328,10 @@ function checkWindowSize() {
 
 checkWindowSize();
 window.addEventListener("resize", checkWindowSize);
+
+//loader
+window.addEventListener('load', function() {
+  var spinner = document.querySelector('.custom-loader');
+  spinner.style.display = 'none'; 
+  
+});
