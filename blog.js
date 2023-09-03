@@ -23,7 +23,7 @@ if(textBox.offsetHeight < textBox.scrollHeight){
   while(textBox.offsetHeight < textBox.scrollHeight){
     words.pop();
     newText = words.join(" ");
-    fullText.innerHTML = newText + "..." + "<span class='seeMore-btn' style= 'color:#599495;cursor:pointer;'> <b>See More</b> </span>" ;
+    fullText.innerHTML = newText + "..." + "<span class='seeMore-btn' style= 'color:#305555;cursor:pointer;'> <b>See More</b> </span>" ;
     }
     
     }  }
